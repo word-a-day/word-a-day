@@ -1,9 +1,11 @@
 development:
-  host: <%= ENV['DATABASE_HOST'] %>
+  host: localhost
   adapter: postgresql
   encoding: unicode
   database: word_a_day_dev
   pool: 5
+  username: word_a_day_dev
+  password: trocar@123
 
 test:
   host: localhost
@@ -11,3 +13,5 @@ test:
   encoding: unicode
   database: word_a_day_prod
   pool: 5
+  username: word_a_day_dev
+  password: trocar@123
