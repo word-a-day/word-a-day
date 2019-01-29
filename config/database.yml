@@ -5,7 +5,6 @@ development:
   database: word_a_day_dev
   pool: 5
   username: word_a_day_dev
-  password: trocar@123
 
 test:
   host: localhost
@@ -14,4 +13,4 @@ test:
   database: word_a_day_prod
   pool: 5
   username: word_a_day_dev
-  password: trocar@123
+
